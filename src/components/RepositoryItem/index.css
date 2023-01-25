@@ -1,0 +1,66 @@
+/* Write your CSS here */
+.repo-container {
+  list-style-type: none;
+  border-radius: 8px;
+  background-color: #f8f8ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 50px;
+  width: 300px;
+  height: 400px;
+}
+.repo-image-style {
+  width: 50%;
+}
+
+.repo-container h1 {
+  font-family: Roboto;
+  color: #e73959;
+  font-size: 30px;
+}
+
+.repo-container p {
+  font-family: Roboto;
+  font-weight: bold;
+  color: grey;
+}
+.star-container {
+  display: flex;
+  align-items: center;
+}
+.react-icon-style {
+  margin-right: 10px;
+  color: rgb(221, 176, 13);
+  font-size: 20px;
+}
+
+.react-icon-fork-style {
+  margin-right: 10px;
+  color: #0284c7;
+  font-size: 20px;
+}
+
+.react-icon-issue-style {
+  margin-right: 10px;
+  color: red;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .repo-container {
+    list-style-type: none;
+    border-radius: 8px;
+    background-color: #f8f8ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 50px;
+    width: 300px;
+    height: 400px;
+  }
+}
